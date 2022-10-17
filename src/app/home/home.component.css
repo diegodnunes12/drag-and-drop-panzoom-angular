@@ -1,0 +1,53 @@
+
+
+.menu {
+  width: 100%;
+  height: 50px;
+  background-color: cadetblue;
+}
+
+.container {
+  width: 80%;
+  height: calc(100vh - 58px);
+  background-color: aliceblue;
+  margin: auto 1%;
+  overflow: scroll !important;
+  position: relative;
+  margin-top: 4px;
+  float: left;
+}
+
+.menu-left {
+  width: 9%;
+  height: calc(100vh - 58px);
+  margin-top: 4px;
+  background-color: cadetblue;
+  float: left;
+}
+
+.menu-right {
+  width: 9%;
+  height: calc(100vh - 58px);
+  margin-top: 4px;
+  background-color: cadetblue;
+  float: right;
+}
+
+#panzoom-element {
+  background-color: white;
+  width: 800px;
+  height: 500px;
+}
+
+.element {
+  padding: 10px;
+  border: solid 1px #933015;
+  display: inline;
+  position: absolute;
+}
+
+app-element {
+  position: absolute;
+  padding: 10px;
+  border: solid 1px #933015;
+}
